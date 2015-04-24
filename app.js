@@ -3,7 +3,6 @@ var path = require('path');
 var fs = require('fs');
 
 var routes = require('./routes/index');
-var tests = require('./routes/test');
 var app = express();
 
 app.set('port', (process.env.PORT || 5000));
