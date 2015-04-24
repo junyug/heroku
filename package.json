@@ -2,12 +2,13 @@
   "name": "h5app",
   "version": "0.1.0",
   "description": "HTML5 app",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node app.js"
   },
   "dependencies": {
     "express": "~4.9.x",
+    "grunt": "^0.4.5",
     "jade": "^1.9.2"
   },
   "engines": {
@@ -22,5 +23,8 @@
     "heroku",
     "express"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "grunt-contrib-watch": "^0.6.1"
+  }
 }

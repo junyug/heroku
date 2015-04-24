@@ -1,18 +1,6 @@
 extends layout
 block content
   div.row
-    header.clearfix.header
-      h1.logo
-        img(src='/images/logo.png', title='#{title}')
-        span= 'FED'
-      nav.clearfix.main-nav
-        li.active: a(title='jQuery 文档')='jQuery 文档'
-        li: a(title='UI 组件文档')='UI 组件文档'
-        li: a(title='工具代码文档')='工具代码文档'
-        li: a(title='开发环境')='开发环境'
-        li: a(title='Gsproxy')='Gsproxy'
-        li: a(title='代码审查')='代码审查'
-        li: a(title='部署静态')='部署静态'
-        li: a(title='网盘')='网盘'
+    //- include ./inc/header.jade
     h1.h1= title
     p #{msg}
